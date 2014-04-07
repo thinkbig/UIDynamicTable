@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA86128918BF030B00F4DC50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA86128818BF030B00F4DC50 /* Foundation.framework */; };
+		FA86128E18BF030B00F4DC50 /* AnimationTable.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA86128D18BF030B00F4DC50 /* AnimationTable.h */; };
+		FA86129018BF030B00F4DC50 /* AnimationTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86128F18BF030B00F4DC50 /* AnimationTable.m */; };
+		FA86129718BF030B00F4DC50 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA86129618BF030B00F4DC50 /* XCTest.framework */; };
+		FA86129818BF030B00F4DC50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA86128818BF030B00F4DC50 /* Foundation.framework */; };
+		FA86129D18BF030B00F4DC50 /* libAnimationTable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA86128518BF030B00F4DC50 /* libAnimationTable.a */; };
+		FA8612A318BF030B00F4DC50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA8612A118BF030B00F4DC50 /* InfoPlist.strings */; };
+		FA8612A518BF030B00F4DC50 /* AnimationTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8612A418BF030B00F4DC50 /* AnimationTableTests.m */; };
+		FA8612AF18BF033200F4DC50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8612AE18BF033200F4DC50 /* UIKit.framework */; };
+		FA8612BE18BF074A00F4DC50 /* NSObject+RuntimeSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8612B918BF074A00F4DC50 /* NSObject+RuntimeSwizzle.m */; };
+		FA8612BF18BF074A00F4DC50 /* UITableView+DynamicScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8612BB18BF074A00F4DC50 /* UITableView+DynamicScrollCell.m */; };
+		FA8612C018BF074A00F4DC50 /* UITableViewCell+Dynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8612BD18BF074A00F4DC50 /* UITableViewCell+Dynamic.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA86129B18BF030B00F4DC50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA86127D18BF030B00F4DC50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA86128418BF030B00F4DC50;
+			remoteInfo = AnimationTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA86128318BF030B00F4DC50 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FA86128E18BF030B00F4DC50 /* AnimationTable.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA86128518BF030B00F4DC50 /* libAnimationTable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAnimationTable.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA86128818BF030B00F4DC50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA86128C18BF030B00F4DC50 /* AnimationTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimationTable-Prefix.pch"; sourceTree = "<group>"; };
+		FA86128D18BF030B00F4DC50 /* AnimationTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationTable.h; sourceTree = "<group>"; };
+		FA86128F18BF030B00F4DC50 /* AnimationTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTable.m; sourceTree = "<group>"; };
+		FA86129518BF030B00F4DC50 /* AnimationTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA86129618BF030B00F4DC50 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA8612A018BF030B00F4DC50 /* AnimationTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimationTableTests-Info.plist"; sourceTree = "<group>"; };
+		FA8612A218BF030B00F4DC50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA8612A418BF030B00F4DC50 /* AnimationTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTableTests.m; sourceTree = "<group>"; };
+		FA8612AE18BF033200F4DC50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA8612B718BF074A00F4DC50 /* MethodSwizzleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzleHelper.h; sourceTree = "<group>"; };
+		FA8612B818BF074A00F4DC50 /* NSObject+RuntimeSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RuntimeSwizzle.h"; sourceTree = "<group>"; };
+		FA8612B918BF074A00F4DC50 /* NSObject+RuntimeSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RuntimeSwizzle.m"; sourceTree = "<group>"; };
+		FA8612BA18BF074A00F4DC50 /* UITableView+DynamicScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DynamicScrollCell.h"; sourceTree = "<group>"; };
+		FA8612BB18BF074A00F4DC50 /* UITableView+DynamicScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DynamicScrollCell.m"; sourceTree = "<group>"; };
+		FA8612BC18BF074A00F4DC50 /* UITableViewCell+Dynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Dynamic.h"; sourceTree = "<group>"; };
+		FA8612BD18BF074A00F4DC50 /* UITableViewCell+Dynamic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Dynamic.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA86128218BF030B00F4DC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8612AF18BF033200F4DC50 /* UIKit.framework in Frameworks */,
+				FA86128918BF030B00F4DC50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86129218BF030B00F4DC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA86129718BF030B00F4DC50 /* XCTest.framework in Frameworks */,
+				FA86129D18BF030B00F4DC50 /* libAnimationTable.a in Frameworks */,
+				FA86129818BF030B00F4DC50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA86127C18BF030B00F4DC50 = {
+			isa = PBXGroup;
+			children = (
+				FA86128A18BF030B00F4DC50 /* AnimationTable */,
+				FA86129E18BF030B00F4DC50 /* AnimationTableTests */,
+				FA86128718BF030B00F4DC50 /* Frameworks */,
+				FA86128618BF030B00F4DC50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA86128618BF030B00F4DC50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA86128518BF030B00F4DC50 /* libAnimationTable.a */,
+				FA86129518BF030B00F4DC50 /* AnimationTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA86128718BF030B00F4DC50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA8612AE18BF033200F4DC50 /* UIKit.framework */,
+				FA86128818BF030B00F4DC50 /* Foundation.framework */,
+				FA86129618BF030B00F4DC50 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA86128A18BF030B00F4DC50 /* AnimationTable */ = {
+			isa = PBXGroup;
+			children = (
+				FA8612B618BF074A00F4DC50 /* UITableView+Dynamic */,
+				FA86128D18BF030B00F4DC50 /* AnimationTable.h */,
+				FA86128F18BF030B00F4DC50 /* AnimationTable.m */,
+				FA86128B18BF030B00F4DC50 /* Supporting Files */,
+			);
+			path = AnimationTable;
+			sourceTree = "<group>";
+		};
+		FA86128B18BF030B00F4DC50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA86128C18BF030B00F4DC50 /* AnimationTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA86129E18BF030B00F4DC50 /* AnimationTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8612A418BF030B00F4DC50 /* AnimationTableTests.m */,
+				FA86129F18BF030B00F4DC50 /* Supporting Files */,
+			);
+			path = AnimationTableTests;
+			sourceTree = "<group>";
+		};
+		FA86129F18BF030B00F4DC50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA8612A018BF030B00F4DC50 /* AnimationTableTests-Info.plist */,
+				FA8612A118BF030B00F4DC50 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA8612B618BF074A00F4DC50 /* UITableView+Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				FA8612B718BF074A00F4DC50 /* MethodSwizzleHelper.h */,
+				FA8612B818BF074A00F4DC50 /* NSObject+RuntimeSwizzle.h */,
+				FA8612B918BF074A00F4DC50 /* NSObject+RuntimeSwizzle.m */,
+				FA8612BA18BF074A00F4DC50 /* UITableView+DynamicScrollCell.h */,
+				FA8612BB18BF074A00F4DC50 /* UITableView+DynamicScrollCell.m */,
+				FA8612BC18BF074A00F4DC50 /* UITableViewCell+Dynamic.h */,
+				FA8612BD18BF074A00F4DC50 /* UITableViewCell+Dynamic.m */,
+			);
+			path = "UITableView+Dynamic";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA86128418BF030B00F4DC50 /* AnimationTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8612A818BF030B00F4DC50 /* Build configuration list for PBXNativeTarget "AnimationTable" */;
+			buildPhases = (
+				FA86128118BF030B00F4DC50 /* Sources */,
+				FA86128218BF030B00F4DC50 /* Frameworks */,
+				FA86128318BF030B00F4DC50 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationTable;
+			productName = AnimationTable;
+			productReference = FA86128518BF030B00F4DC50 /* libAnimationTable.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA86129418BF030B00F4DC50 /* AnimationTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8612AB18BF030B00F4DC50 /* Build configuration list for PBXNativeTarget "AnimationTableTests" */;
+			buildPhases = (
+				FA86129118BF030B00F4DC50 /* Sources */,
+				FA86129218BF030B00F4DC50 /* Frameworks */,
+				FA86129318BF030B00F4DC50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA86129C18BF030B00F4DC50 /* PBXTargetDependency */,
+			);
+			name = AnimationTableTests;
+			productName = AnimationTableTests;
+			productReference = FA86129518BF030B00F4DC50 /* AnimationTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA86127D18BF030B00F4DC50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "alex tao";
+			};
+			buildConfigurationList = FA86128018BF030B00F4DC50 /* Build configuration list for PBXProject "AnimationTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA86127C18BF030B00F4DC50;
+			productRefGroup = FA86128618BF030B00F4DC50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA86128418BF030B00F4DC50 /* AnimationTable */,
+				FA86129418BF030B00F4DC50 /* AnimationTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA86129318BF030B00F4DC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8612A318BF030B00F4DC50 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA86128118BF030B00F4DC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA86129018BF030B00F4DC50 /* AnimationTable.m in Sources */,
+				FA8612C018BF074A00F4DC50 /* UITableViewCell+Dynamic.m in Sources */,
+				FA8612BF18BF074A00F4DC50 /* UITableView+DynamicScrollCell.m in Sources */,
+				FA8612BE18BF074A00F4DC50 /* NSObject+RuntimeSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86129118BF030B00F4DC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8612A518BF030B00F4DC50 /* AnimationTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA86129C18BF030B00F4DC50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA86128418BF030B00F4DC50 /* AnimationTable */;
+			targetProxy = FA86129B18BF030B00F4DC50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA8612A118BF030B00F4DC50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8612A218BF030B00F4DC50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA8612A618BF030B00F4DC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		FA8612A718BF030B00F4DC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		FA8612A918BF030B00F4DC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AnimationTable.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimationTable/AnimationTable-Prefix.pch";
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FA8612AA18BF030B00F4DC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AnimationTable.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimationTable/AnimationTable-Prefix.pch";
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FA8612AC18BF030B00F4DC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimationTable/AnimationTable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AnimationTableTests/AnimationTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA8612AD18BF030B00F4DC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimationTable/AnimationTable-Prefix.pch";
+				INFOPLIST_FILE = "AnimationTableTests/AnimationTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA86128018BF030B00F4DC50 /* Build configuration list for PBXProject "AnimationTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8612A618BF030B00F4DC50 /* Debug */,
+				FA8612A718BF030B00F4DC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8612A818BF030B00F4DC50 /* Build configuration list for PBXNativeTarget "AnimationTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8612A918BF030B00F4DC50 /* Debug */,
+				FA8612AA18BF030B00F4DC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8612AB18BF030B00F4DC50 /* Build configuration list for PBXNativeTarget "AnimationTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8612AC18BF030B00F4DC50 /* Debug */,
+				FA8612AD18BF030B00F4DC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA86127D18BF030B00F4DC50 /* Project object */;
+}

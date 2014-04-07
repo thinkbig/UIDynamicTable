@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B43FF0F218A8DFF30086288A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43FF0F118A8DFF30086288A /* Foundation.framework */; };
+		B43FF0F418A8DFF30086288A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43FF0F318A8DFF30086288A /* CoreGraphics.framework */; };
+		B43FF0F618A8DFF30086288A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43FF0F518A8DFF30086288A /* UIKit.framework */; };
+		B43FF0FC18A8DFF30086288A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B43FF0FA18A8DFF30086288A /* InfoPlist.strings */; };
+		B43FF0FE18A8DFF30086288A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B43FF0FD18A8DFF30086288A /* main.m */; };
+		B43FF10218A8DFF30086288A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B43FF10118A8DFF30086288A /* AppDelegate.m */; };
+		B43FF10418A8DFF30086288A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43FF10318A8DFF30086288A /* Images.xcassets */; };
+		B43FF10B18A8DFF30086288A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43FF10A18A8DFF30086288A /* XCTest.framework */; };
+		B43FF10C18A8DFF30086288A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43FF0F118A8DFF30086288A /* Foundation.framework */; };
+		B43FF10D18A8DFF30086288A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43FF0F518A8DFF30086288A /* UIKit.framework */; };
+		B43FF12C18A8E0310086288A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43FF12218A8E0310086288A /* WebViewController.m */; };
+		B43FF12D18A8E0310086288A /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43FF12318A8E0310086288A /* ListViewController.m */; };
+		B43FF12E18A8E0310086288A /* LineInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B43FF12518A8E0310086288A /* LineInfo.m */; };
+		B43FF13618A8F0000086288A /* LineCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = B43FF13518A8F0000086288A /* LineCellView.m */; };
+		B48DA7CA18A904FD0030616C /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B48DA7C918A904FD0030616C /* DataManager.m */; };
+		B48DA7D018A9094E0030616C /* RequestUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = B48DA7CF18A9094E0030616C /* RequestUnit.m */; };
+		FA8F3E9118C07F720040342A /* libAnimationTable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8F3E9018C07F720040342A /* libAnimationTable.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B43FF10E18A8DFF30086288A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43FF0E618A8DFF30086288A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43FF0ED18A8DFF30086288A;
+			remoteInfo = FiarfaxTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B43FF0EE18A8DFF30086288A /* FiarfaxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiarfaxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43FF0F118A8DFF30086288A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B43FF0F318A8DFF30086288A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B43FF0F518A8DFF30086288A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B43FF0F918A8DFF30086288A /* FiarfaxTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FiarfaxTest-Info.plist"; sourceTree = "<group>"; };
+		B43FF0FB18A8DFF30086288A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B43FF0FD18A8DFF30086288A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B43FF0FF18A8DFF30086288A /* FiarfaxTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FiarfaxTest-Prefix.pch"; sourceTree = "<group>"; };
+		B43FF10018A8DFF30086288A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B43FF10118A8DFF30086288A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B43FF10318A8DFF30086288A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B43FF10918A8DFF30086288A /* FiarfaxTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiarfaxTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43FF10A18A8DFF30086288A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B43FF12218A8E0310086288A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		B43FF12318A8E0310086288A /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		B43FF12418A8E0310086288A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		B43FF12518A8E0310086288A /* LineInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineInfo.m; sourceTree = "<group>"; };
+		B43FF12618A8E0310086288A /* LineInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineInfo.h; sourceTree = "<group>"; };
+		B43FF12918A8E0310086288A /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		B43FF13418A8F0000086288A /* LineCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineCellView.h; sourceTree = "<group>"; };
+		B43FF13518A8F0000086288A /* LineCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineCellView.m; sourceTree = "<group>"; };
+		B48DA7C818A904FD0030616C /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		B48DA7C918A904FD0030616C /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		B48DA7CE18A9094E0030616C /* RequestUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestUnit.h; sourceTree = "<group>"; };
+		B48DA7CF18A9094E0030616C /* RequestUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestUnit.m; sourceTree = "<group>"; };
+		FA8F3E9018C07F720040342A /* libAnimationTable.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAnimationTable.a; path = libs/libAnimationTable.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B43FF0EB18A8DFF30086288A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43FF0F418A8DFF30086288A /* CoreGraphics.framework in Frameworks */,
+				FA8F3E9118C07F720040342A /* libAnimationTable.a in Frameworks */,
+				B43FF0F618A8DFF30086288A /* UIKit.framework in Frameworks */,
+				B43FF0F218A8DFF30086288A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43FF10618A8DFF30086288A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43FF10B18A8DFF30086288A /* XCTest.framework in Frameworks */,
+				B43FF10D18A8DFF30086288A /* UIKit.framework in Frameworks */,
+				B43FF10C18A8DFF30086288A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B43FF0E518A8DFF30086288A = {
+			isa = PBXGroup;
+			children = (
+				B43FF0F718A8DFF30086288A /* FiarfaxTest */,
+				B43FF0F018A8DFF30086288A /* Frameworks */,
+				B43FF0EF18A8DFF30086288A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B43FF0EF18A8DFF30086288A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B43FF0EE18A8DFF30086288A /* FiarfaxTest.app */,
+				B43FF10918A8DFF30086288A /* FiarfaxTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B43FF0F018A8DFF30086288A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B43FF0F118A8DFF30086288A /* Foundation.framework */,
+				B43FF0F318A8DFF30086288A /* CoreGraphics.framework */,
+				B43FF0F518A8DFF30086288A /* UIKit.framework */,
+				B43FF10A18A8DFF30086288A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B43FF0F718A8DFF30086288A /* FiarfaxTest */ = {
+			isa = PBXGroup;
+			children = (
+				FA8F3E9018C07F720040342A /* libAnimationTable.a */,
+				B43FF10018A8DFF30086288A /* AppDelegate.h */,
+				B43FF10118A8DFF30086288A /* AppDelegate.m */,
+				B43FF10318A8DFF30086288A /* Images.xcassets */,
+				B43FF12618A8E0310086288A /* LineInfo.h */,
+				B43FF12518A8E0310086288A /* LineInfo.m */,
+				B43FF12918A8E0310086288A /* ListViewController.h */,
+				B43FF12318A8E0310086288A /* ListViewController.m */,
+				B43FF0F818A8DFF30086288A /* Supporting Files */,
+				B43FF12418A8E0310086288A /* WebViewController.h */,
+				B43FF12218A8E0310086288A /* WebViewController.m */,
+				B43FF13418A8F0000086288A /* LineCellView.h */,
+				B43FF13518A8F0000086288A /* LineCellView.m */,
+				B48DA7C818A904FD0030616C /* DataManager.h */,
+				B48DA7C918A904FD0030616C /* DataManager.m */,
+				B48DA7CE18A9094E0030616C /* RequestUnit.h */,
+				B48DA7CF18A9094E0030616C /* RequestUnit.m */,
+			);
+			path = FiarfaxTest;
+			sourceTree = "<group>";
+		};
+		B43FF0F818A8DFF30086288A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B43FF0F918A8DFF30086288A /* FiarfaxTest-Info.plist */,
+				B43FF0FA18A8DFF30086288A /* InfoPlist.strings */,
+				B43FF0FD18A8DFF30086288A /* main.m */,
+				B43FF0FF18A8DFF30086288A /* FiarfaxTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B43FF0ED18A8DFF30086288A /* FiarfaxTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43FF11A18A8DFF30086288A /* Build configuration list for PBXNativeTarget "FiarfaxTest" */;
+			buildPhases = (
+				B43FF0EA18A8DFF30086288A /* Sources */,
+				B43FF0EB18A8DFF30086288A /* Frameworks */,
+				B43FF0EC18A8DFF30086288A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiarfaxTest;
+			productName = FiarfaxTest;
+			productReference = B43FF0EE18A8DFF30086288A /* FiarfaxTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B43FF10818A8DFF30086288A /* FiarfaxTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43FF11D18A8DFF30086288A /* Build configuration list for PBXNativeTarget "FiarfaxTestTests" */;
+			buildPhases = (
+				B43FF10518A8DFF30086288A /* Sources */,
+				B43FF10618A8DFF30086288A /* Frameworks */,
+				B43FF10718A8DFF30086288A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43FF10F18A8DFF30086288A /* PBXTargetDependency */,
+			);
+			name = FiarfaxTestTests;
+			productName = FiarfaxTestTests;
+			productReference = B43FF10918A8DFF30086288A /* FiarfaxTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B43FF0E618A8DFF30086288A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Fiarfax;
+				TargetAttributes = {
+					B43FF10818A8DFF30086288A = {
+						TestTargetID = B43FF0ED18A8DFF30086288A;
+					};
+				};
+			};
+			buildConfigurationList = B43FF0E918A8DFF30086288A /* Build configuration list for PBXProject "FiarfaxTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B43FF0E518A8DFF30086288A;
+			productRefGroup = B43FF0EF18A8DFF30086288A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B43FF0ED18A8DFF30086288A /* FiarfaxTest */,
+				B43FF10818A8DFF30086288A /* FiarfaxTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B43FF0EC18A8DFF30086288A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43FF0FC18A8DFF30086288A /* InfoPlist.strings in Resources */,
+				B43FF10418A8DFF30086288A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43FF10718A8DFF30086288A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B43FF0EA18A8DFF30086288A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43FF12D18A8E0310086288A /* ListViewController.m in Sources */,
+				B48DA7D018A9094E0030616C /* RequestUnit.m in Sources */,
+				B43FF10218A8DFF30086288A /* AppDelegate.m in Sources */,
+				B43FF0FE18A8DFF30086288A /* main.m in Sources */,
+				B43FF12C18A8E0310086288A /* WebViewController.m in Sources */,
+				B43FF13618A8F0000086288A /* LineCellView.m in Sources */,
+				B48DA7CA18A904FD0030616C /* DataManager.m in Sources */,
+				B43FF12E18A8E0310086288A /* LineInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43FF10518A8DFF30086288A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B43FF10F18A8DFF30086288A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43FF0ED18A8DFF30086288A /* FiarfaxTest */;
+			targetProxy = B43FF10E18A8DFF30086288A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B43FF0FA18A8DFF30086288A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43FF0FB18A8DFF30086288A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B43FF11818A8DFF30086288A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B43FF11918A8DFF30086288A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B43FF11B18A8DFF30086288A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FiarfaxTest/FiarfaxTest-Prefix.pch";
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				INFOPLIST_FILE = "FiarfaxTest/FiarfaxTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/alex/workspace/lib/AnimationTable/FiarfaxTest/FiarfaxTest/libs,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B43FF11C18A8DFF30086288A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FiarfaxTest/FiarfaxTest-Prefix.pch";
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				INFOPLIST_FILE = "FiarfaxTest/FiarfaxTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/alex/workspace/lib/AnimationTable/FiarfaxTest/FiarfaxTest/libs,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B43FF11E18A8DFF30086288A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FiarfaxTest.app/FiarfaxTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FiarfaxTest/FiarfaxTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FiarfaxTestTests/FiarfaxTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B43FF11F18A8DFF30086288A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FiarfaxTest.app/FiarfaxTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FiarfaxTest/FiarfaxTest-Prefix.pch";
+				INFOPLIST_FILE = "FiarfaxTestTests/FiarfaxTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B43FF0E918A8DFF30086288A /* Build configuration list for PBXProject "FiarfaxTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43FF11818A8DFF30086288A /* Debug */,
+				B43FF11918A8DFF30086288A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43FF11A18A8DFF30086288A /* Build configuration list for PBXNativeTarget "FiarfaxTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43FF11B18A8DFF30086288A /* Debug */,
+				B43FF11C18A8DFF30086288A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43FF11D18A8DFF30086288A /* Build configuration list for PBXNativeTarget "FiarfaxTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43FF11E18A8DFF30086288A /* Debug */,
+				B43FF11F18A8DFF30086288A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B43FF0E618A8DFF30086288A /* Project object */;
+}
